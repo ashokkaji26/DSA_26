@@ -10,8 +10,8 @@ int main() {
     cin >> n >> k;
     int counter = 0;
 
-    int i = 1;
-    while ( i > 0 ) {
+    int number = 1;
+    while ( number > 0 ) {
         int digit_sum = 0;
 
         if ( counter == n ) {
@@ -19,16 +19,16 @@ int main() {
             break;
         }
 
-        for ( int j = i; j > 0; j /= 10 ) {
+        for ( int j = number; j > 0; j /= 10 ) {
             digit_sum += j % 10;
         }
 
         if ( digit_sum == k ) {
-            cout << "Digit sum of " << i << " is equal to: " << k << endl;
+            cout << "Digit sum of " << number << " is equal to: " << k << endl;
             counter++;
         }
 
-        i++;
+        number++;
     }
     return 0;
 }
