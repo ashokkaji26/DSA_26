@@ -13,7 +13,7 @@ int main () {
     int smaller_Num;   // check smaller number.
     num_1 >= num_2 ? smaller_Num = num_2 : smaller_Num = num_1;
 
-    int HCF;
+    int HCF = 1; // LCF
 
     for ( int i = 1; i <= smaller_Num; i++ ) {
         if ( num_1 % i == 0 && num_2 % i == 0 ){
