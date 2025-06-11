@@ -1,1 +1,11 @@
-DSA Notes
+# Topics:-
+
+        1. Boiler Plate Code.
+        2. header files, namespace, return 0.
+        3. Variables
+        4. Data Types
+        5. Operators
+        6. Conditional Statements :- if, if-else, if else ladder.
+        7. Ternary Operator :- Condition ? if true : if false;
+        8. Loops :- For, While, Do-while.
+        9. Pattern Printing using loops.
